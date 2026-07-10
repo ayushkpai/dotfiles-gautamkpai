@@ -10,7 +10,7 @@ Installs
 - Dropbox, vlc, caffeine, simplenote, the-unarchiver
 
 ```
-$ ansible-playbook mac.yml
+ansible-playbook mac.yml
 ```
 
 ### (n)vim setup
@@ -18,7 +18,7 @@ $ ansible-playbook mac.yml
 Installs vim & nvim from homebrew and symlinks config files.
 
 ```
-$ ansible-playbook vim.yml
+ansible-playbook vim.yml
 ```
 
 ## Keyboard shortcuts quick ref
