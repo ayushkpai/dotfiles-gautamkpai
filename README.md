@@ -1,5 +1,4 @@
-dotfiles
-========
+# dotfiles
 
 ### Mac setup
 
@@ -33,19 +32,20 @@ ansible-playbook vim.yml
 - Go forwards in history - ⌘ + ]
 
 ### Apple Mail
-|||
-|---|---|
+
+|                          |           |
+| ------------------------ | --------- |
 | Fetch new mails(refresh) | ⌘ + ⇧ + N |
-| Mark read / unread | ⌘ + ⇧ + U |
-| Archive | ⌘ + ⌃ + A |
-| Toggle sidebar | ⌘ + ⌃ + S |
+| Mark read / unread       | ⌘ + ⇧ + U |
+| Archive                  | ⌘ + ⌃ + A |
+| Toggle sidebar           | ⌘ + ⌃ + S |
 
 ## Terminal
 
 - clear current line:
-    - Ctrl+A Ctrl+K
-    - Ctrl+E Ctrl+U
-    - Ctrl+C
+  - Ctrl+A Ctrl+K
+  - Ctrl+E Ctrl+U
+  - Ctrl+C
 - clear backwards till beginning of line: Ctrl+U
 - clear forwards till end of line: Ctrl+K
 - Jump to beginning of line: Ctrl+A | fn + ←
@@ -56,6 +56,7 @@ ansible-playbook vim.yml
 - kill-word-backword: Ctrl+W
 
 ### Unicode values (Ctl V + unicode)
+
 - ⇧ - U+21E7
 - ⌃ - U+2303
 - ⎈ - U+2388
